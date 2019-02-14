@@ -13,33 +13,11 @@ const Header = ({ siteTitle }) => (
 		<div className="hero-body">
 			<div className="container center">
 				<article className="media">
-					<figure className="is-left">
-						<span className="icon is-large ">
-							<img src={gatsbyLogo} alt="gatsby-logo" />
-						</span>
-					</figure>
-					<figure className="is-left">
-						<span className="icon is-large">
-							<img src={bulmaLogo} alt="bulma-logo" />
-						</span>
-					</figure>
 					<div className="media-content">
 						<div className="content">
 							<h1 className="is-uppercase is-size-1 has-text-white">
-								Hello from Bulma + Gatsby
+							Experience the best bass fishing Door County has to offer with Chris Johnson’s Fishcrazy Guide Service!
 							</h1>
-							<p className="subtitle has-text-white is-size-3">
-								A Bulma CSS + GatsbyJS Starter Kit{' '}
-								<a
-									className="button is-info is-inverted"
-									href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-								>
-									<span className="icon">
-										<FaGithub size="fa-2x" />
-									</span>
-									<span>Download</span>
-								</a>
-							</p>
 						</div>
 					</div>
 				</article>

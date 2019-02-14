@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { Link } from 'gatsby';
 
 import './style.scss';
 import gatsbyLogo from '../images/gatsby-icon.png';
@@ -20,17 +21,10 @@ const Navbar = () => (
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
-						<span className="navbar-item">
-							<a
-								className="button is-danger is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-							>
-								<span className="icon">
-									<FaGithub size="fa-2x" />
-								</span>
-								<span>Download</span>
-							</a>
-						</span>
+						<Link className="navbar-item" to="/rates-and-info/">Rates and Info</Link>
+						<Link className="navbar-item" to="/gallery/">Gallery</Link>
+						<Link className="navbar-item" to="/meet-the-captain/">Meet the Captain</Link>
+						<Link className="navbar-item" to="/contact/">Contact</Link>
 					</div>
 				</div>
 			</div>

@@ -27,7 +27,7 @@ const Footer = () => (
 						<Emoji emoji="☕" />
 					</p>
 					<p className="is-size-4">
-						By Aman Mittal (@amahimself) using{' '}
+						By rdoney using{' '}
 						<a href={data.site.siteMetadata.gatsby}>Gatsby</a> +{' '}
 						<a href={data.site.siteMetadata.bulma}>Bulma</a>
 					</p>
