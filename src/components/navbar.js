@@ -1,9 +1,8 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import React from "react";
+import { Link } from "gatsby";
 
-import './style.scss';
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+import "./style.scss";
+import gatsbyLogo from "../images/gatsby-icon.png";
 
 const Navbar = () => (
 	<div className="hero-head is-hidden-mobile">
@@ -15,20 +14,25 @@ const Navbar = () => (
 						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 					>
 						<img src={gatsbyLogo} alt="Logo-1" />
-						<img src={bulmaLogo} alt="Logo-2" />
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
+						<Link to="/rates-and-info" className="navbar-item">
+							Rates and Info
+						</Link>
+						<Link to="/meet-the-captain" className="navbar-item">
+							Meet the Captain
+						</Link>
+						<Link to="/gallery" className="navbar-item">
+							Gallery
+						</Link>
 						<span className="navbar-item">
 							<a
-								className="button is-danger is-inverted"
+								className="button is-primary is-inverted"
 								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 							>
-								<span className="icon">
-									<FaGithub size="fa-2x" />
-								</span>
-								<span>Download</span>
+								<span>Contact</span>
 							</a>
 						</span>
 					</div>

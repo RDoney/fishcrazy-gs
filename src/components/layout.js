@@ -10,7 +10,7 @@ const Layout = ({ children }) => (
 	<div>
 		<Helmet />
 		<Header />
-		<Midsection />
+			{children}
 		<Footer />
 	</div>
 );
