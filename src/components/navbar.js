@@ -18,6 +18,9 @@ const Navbar = () => (
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
+						<Link to="/" className="navbar-item">
+							Home
+						</Link>
 						<Link to="/rates-and-info" className="navbar-item">
 							Rates and Info
 						</Link>
@@ -28,12 +31,9 @@ const Navbar = () => (
 							Gallery
 						</Link>
 						<span className="navbar-item">
-							<a
-								className="button is-primary is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-							>
-								<span>Contact</span>
-							</a>
+							<Link to="/contact" className="button is-primary is-inverted">
+								Contact
+							</Link>
 						</span>
 					</div>
 				</div>
