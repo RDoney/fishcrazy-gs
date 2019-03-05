@@ -16,7 +16,11 @@ const Header = ({ siteTitle }) => (
 					<div className="media-content">
 						<div className="content has-text-centered">
 							<h1 className="is-uppercase is-size-1 has-text-white">
+<<<<<<< HEAD
 								Experience the best bass fishing Door County has to offer
+=======
+							Experience the best bass fishing Door County has to offer with Chris Johnson’s Fishcrazy Guide Service!
+>>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb
 							</h1>
 						</div>
 					</div>

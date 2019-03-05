@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 import Layout from "../components/layout";
@@ -33,3 +34,12 @@ const Contact = () => (
 );
 
 export default Contact;
+=======
+import React from 'react';
+
+import Layout from '../components/layout';
+
+const Contact = () => <Layout />;
+
+export default Contact;
+>>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb
