@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
@@ -58,12 +57,3 @@ const MeetTheCaptain = () => (
 );
 
 export default MeetTheCaptain;
-=======
-import React from 'react';
-
-import Layout from '../components/layout';
-
-const MeetTheCaptain = () => <Layout />;
-
-export default MeetTheCaptain;
->>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb

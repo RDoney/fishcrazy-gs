@@ -1,6 +1,5 @@
 module.exports = {
 	siteMetadata: {
-<<<<<<< HEAD
 		title: "Fishcrazy Guide Service",
 		author: "Ryan Doney",
 		imageUrl: "https://i.imgur.com/Vz81GEl.png",
@@ -11,13 +10,6 @@ module.exports = {
 		medium: "https://medium.com/@amanhimself",
 		gatsby: "https://www.gatsbyjs.org/",
 		bulma: "https://bulma.io/",
-=======
-		title: 'Fishcrazy Guide Service',
-		author: 'Aman Mittal',
-		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'The Best Smallmouth Bass Fishing Guide in Door County, WI',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
->>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb
 		siteUrl: `https://www.example.com`
 	},
 	plugins: [

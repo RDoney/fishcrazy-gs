@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 import React from "react";
 import { Link } from "gatsby";
-=======
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { Link } from 'gatsby';
->>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb
 
 import "./style.scss";
 import gatsbyLogo from "../images/gatsby-icon.png";
@@ -24,7 +18,6 @@ const Navbar = () => (
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
-<<<<<<< HEAD
 						<Link to="/" className="navbar-item">
 							Home
 						</Link>
@@ -42,12 +35,6 @@ const Navbar = () => (
 								Contact
 							</Link>
 						</span>
-=======
-						<Link className="navbar-item" to="/rates-and-info/">Rates and Info</Link>
-						<Link className="navbar-item" to="/gallery/">Gallery</Link>
-						<Link className="navbar-item" to="/meet-the-captain/">Meet the Captain</Link>
-						<Link className="navbar-item" to="/contact/">Contact</Link>
->>>>>>> 08bdb312a7ca0069d0eb45a33fd7056075604eeb
 					</div>
 				</div>
 			</div>
