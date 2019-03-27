@@ -1,27 +1,54 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import Navbar from "../components/navbar";
+import meetTheCaptain from "../images/bg-img/meet-the-captain.jpg";
+import underwater from "../images/fish.jpg";
 
 const MeetTheCaptain = () => (
 	<Layout>
-		<section className="section">
+		<section
+			className="hero is-large"
+			style={{
+				backgroundImage: `linear-gradient(rgba(110, 118, 122, 0.5), rgba(110, 118, 122, 0.5)), url(${meetTheCaptain})`,
+				backgroundSize: "cover",
+				backgroundRepeat: "no-repeat"
+			}}
+		>
+			<Navbar />
+			<div className="hero-body">
+				<div className="container center">
+					<article className="media">
+						<div className="media-content">
+							<div className="content has-text-centered">
+								<h1 className="is-uppercase is-size-1 has-text-white">
+									Meet The Captain
+								</h1>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<section className="section meet-the-captain">
 			<div className="container">
 				<p>
-					Captain Chris Johnson spends approximately 150 days a year on the
-					water guiding, competing in fishing tournaments, and learning, all
-					while sharing his knowledge with others to provide a better
-					opportunity for his clients to have a successful and enjoyable day on
-					the water. Captain Chris is one of most accomplished and recognized
-					anglers in Wisconsin and is often called on to field test new
-					products, provide opportunities for photos for various media, or even
-					shooting TV shows. Fishcrazy Guide Service is committed to making your
-					trip with us first-rate. We can assist with food, lodging, and
-					entertainment.
+					<strong>
+						Captain Chris Johnson spends approximately 150 days a year on the
+						water
+					</strong>{" "}
+					guiding, competing in fishing tournaments, and learning, all while
+					sharing his knowledge with others to provide a better opportunity for
+					his clients to have a successful and enjoyable day on the water.
+					Captain Chris is one of most accomplished and recognized anglers in
+					Wisconsin and is often called on to field test new products, provide
+					opportunities for photos for various media, or even shooting TV shows.
+					Fishcrazy Guide Service is committed to making your trip with us
+					first-rate. We can assist with food, lodging, and entertainment.
 				</p>
-				<img
-					src="https://via.placeholder.com/350x350"
-					alt="Captain Chris Johnson"
-				/>
+				<figure className="image">
+					<img src={underwater} alt="Captain Chris Johnson" />
+				</figure>
 				<br />
 				<p>
 					If you are interested in experiencing some of the other fantastic
@@ -48,7 +75,7 @@ const MeetTheCaptain = () => (
 					together a presentation that will both educate and entertain your
 					audience.
 				</p>
-				<Link to="/" className="button is-primary">
+				<Link to="/" className="button is-large is-primary">
 					Book Your Trip Today
 				</Link>
 			</div>
