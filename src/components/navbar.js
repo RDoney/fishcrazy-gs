@@ -2,28 +2,39 @@ import React from "react";
 import { Link } from "gatsby";
 
 import "./style.scss";
-import gatsbyLogo from "../images/gatsby-icon.png";
-
-// const burgerClick = e => {
-// 	const burger = document.querySelector(".navbar-burger");
-// 	const mobileNav = document.querySelector("#navMenu");
-
-// 	burger.addClass();
-// };
+import Logo from "../images/Logo.png";
 
 class Navbar extends React.Component {
+	constructor() {
+		super();
+		this.state = {
+			navState: ""
+		};
+	}
+
+	toggleNav = e => {
+		if (this.state.navState === "") {
+			this.setState({ navState: "is-active" });
+		} else {
+			this.setState({ navState: "" });
+		}
+
+		console.log(this.state.navState);
+	};
+
 	render() {
 		return (
 			<div className="hero-head">
 				<nav className="navbar">
 					<div className="container">
-						<div className="navbar-brand">
+						<div className={`navbar-brand ${this.state.navState}`}>
 							<a className="navbar-item" href="/">
-								<img src={gatsbyLogo} alt="Logo-1" />
+								<img className="main-logo" src={Logo} alt="Logo" />
 							</a>
 							<a
+								onClick={this.toggleNav}
 								role="button"
-								class="navbar-burger"
+								className={`navbar-burger ${this.state.navState}`}
 								data-target="navMenu"
 								aria-label="menu"
 								aria-expanded="false"
@@ -33,7 +44,7 @@ class Navbar extends React.Component {
 								<span aria-hidden="true" />
 							</a>
 						</div>
-						<div id="navMenu" className="navbar-menu">
+						<div id="navMenu" className={`navbar-menu ${this.state.navState}`}>
 							<div className="navbar-end">
 								<Link to="/" className="navbar-item">
 									Home

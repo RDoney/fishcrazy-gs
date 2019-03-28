@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 import indexbg from "../images/bg-img/index.jpg";
 import smallmouthBass1 from "../images/smallmouth-bass-1.jpg";
 import mac2 from "../images/mac-2.jpg";
-import meetTheCaptain from "../images/bg-img/meet-the-captain-4-3.jpg";
+import meetTheCaptain from "../images/captain-chris.jpg";
 import galleryImg from "../images/bg-img/gallery.jpg";
 import contactImg from "../images/bg-img/contact.jpg";
 import fourSmallies from "../images/four-smallies.jpg";
@@ -38,8 +38,8 @@ const IndexPage = () => (
 		</section>
 		<section className="section has-background-light">
 			<div className="container">
-				<div className="columns">
-					<div className="column">
+				<div className="columns is-vcentered">
+					<div className="column half-text">
 						<h2 className="is-size-3">
 							Chris Johnson <br />
 							Professional Guide and Tournament Angler
@@ -72,11 +72,11 @@ const IndexPage = () => (
 		</section>
 		<section className="section has-background-light">
 			<div className="container">
-				<div className="columns">
+				<div className="columns is-vcentered">
 					<div className="column">
 						<img src={mac2} alt="Smallmouth Bass" className="floating-image" />
 					</div>
-					<div className="column">
+					<div className="column half-text">
 						<h2 className="is-size-3">A Charter Experience Like No Other</h2>
 						<hr class="divider-bar" />
 						<p>
@@ -121,9 +121,8 @@ const IndexPage = () => (
 							<div className="card-content">
 								<h3 className="is-size-4">Meet The Captain</h3>
 								<div className="content">
-									Captain Chris' tournament success and unique ability to
-									consistently find and catch Door County Smallmouth has earned
-									him a reputation as one of the best anglers in the state.
+									Meet Captain Chris Johnson, tournament angler and the go-to
+									Smallmouth Bass guide in Door County, Wisconsin
 									<br />
 									<Link
 										to="/meet-the-captain"

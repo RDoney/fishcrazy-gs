@@ -68,6 +68,10 @@
 	align-items: center;
 }
 
+.half-text {
+	padding: 0.75rem 2.5rem;
+}
+
 .home-guide-text {
 	max-width: 650px;
 	padding: 3rem;
@@ -88,6 +92,21 @@
 	margin-top: 1.5rem;
 }
 
+.meet-chris {
+	max-height: 300px;
+}
+
+.navbar-brand {
+	&.is-active {
+		background-color: $primary-color;
+	}
+}
+
+.navbar-item {
+	img {
+		max-height: 7rem;
+	}
+}
 .rates-section {
 	background: #ecf0f1;
 }
