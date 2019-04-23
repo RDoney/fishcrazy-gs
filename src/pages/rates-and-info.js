@@ -38,9 +38,9 @@ const RatesAndInfo = () => (
 							Rates include up to 2 guests. Additional persons may be added for
 							$50 each
 						</p>
-						<h3 className="is-size-4">Half Day: 4 hour trip</h3>
-						<p className="price">$350</p>
-						<h3 className="is-size-4">Full Day: 8 hour trip</h3>
+						<h3 className="is-size-4">Half Day: 4-5 hour trip</h3>
+						<p className="price">$375</p>
+						<h3 className="is-size-4">Full Day: 8-9 hour trip</h3>
 						<p className="price">$500</p>
 						<Link to="/contact" className="button is-medium is-primary">
 							Book Your Trip
@@ -128,17 +128,17 @@ const RatesAndInfo = () => (
 						<h4 className="is-size-3 info-title">What to Expect</h4>
 						<p>
 							Fishcrazy Guide Service will accommodate you requests and can fish
-							anywhere around Door County to meet your request. This includes
-							the waters of Green Bay, Lake Michigan and around Washington
-							Island. We can pick you up at your location or meet you at any of
-							the boat ramps in the listed locations.
+							anywhere around Door County. This includes the waters of Green
+							Bay, Lake Michigan and around Washington Island. We can pick you
+							up at your location or meet you at any of the boat ramps in the
+							listed locations.
 						</p>
 						<p>
 							You will be fishing with top of the line equipment and all
 							required lures and baits are provided. Enjoy the best ride in the
 							bass boat industry aboard the most stable fishing platform
-							available anywhere in a fully rigged Triton TR21XS powered by a
-							Mercury 250 Pro XS.
+							available anywhere in a fully rigged Triton 24’ LTS240 Bay Boat
+							powered by a Mercury 300 Verado.
 						</p>
 					</div>
 				</div>
