@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar";
-import meetTheCaptain from "../images/bg-img/meet-the-captain.jpg";
-import captainChris from "../images/erie-big.jpg";
+import whyHireImg from "../images/bg-img/fish-wide.jpg";
 
 const WhyHireAGuide = () => (
 	<Layout>
 		<section
 			className="hero is-medium"
 			style={{
-				backgroundImage: `linear-gradient(rgba(110, 118, 122, 0.5), rgba(110, 118, 122, 0.5)), url(${meetTheCaptain})`,
+				backgroundImage: `linear-gradient(rgba(110, 118, 122, 0.5), rgba(110, 118, 122, 0.5)), url(${whyHireImg})`,
 				backgroundSize: "cover",
+				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat"
 			}}
 		>
@@ -121,8 +121,12 @@ const WhyHireAGuide = () => (
 						of Fishcrazy Guide Service. Communication is the key to a successful
 						fishing trip. Let your guide know what you expect, what you like and
 						don’t like. Ask what type of technique you will be using, what type
-						of baits you will be fishing with. <br />
-						<br /> Not all guides are alike; some will bark at you like a drill
+						of baits you will be fishing with.
+					</div>
+				</div>
+				<div className="columns">
+					<div className="column">
+						Not all guides are alike; some will bark at you like a drill
 						sergeant all day long, some are very mellow and relaxed. The one
 						thing guides all have in common is the love of Fishing. Find one
 						that suits your style and you will become lifelong friends. The
@@ -143,7 +147,7 @@ const WhyHireAGuide = () => (
 				</div>
 				<div className="columns">
 					<div className="column">
-						What a Guide Expects from You Truthfulness: Don’t try to tell the
+						What a Guide Expects from You: Truthfulness: Don’t try to tell the
 						guide that you know what you are doing he will soon catch on. Give
 						him an assessment of your skills and abilities up front. That lets
 						the guides tailor his trip to your abilities, making it a great trip

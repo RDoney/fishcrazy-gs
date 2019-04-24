@@ -62,7 +62,17 @@ const RatesAndInfo = () => (
 				<div className="columns">
 					<div className="column">
 						<h3 className="is-size-3 info-title">Launch Locations</h3>
-						<img src="https://via.placeholder.com/350x350" alt="" />
+						<a href="https://drive.google.com/open?id=1NtcfmShuVWqCQrpKye7xKNUgzzV0rv6k&usp=sharing">
+							View in Google Maps
+						</a>
+						<div className="iframe-container">
+							<iframe
+								src="https://www.google.com/maps/d/embed?mid=1NtcfmShuVWqCQrpKye7xKNUgzzV0rv6k"
+								width="500"
+								height="500"
+								className="responsive-iframe"
+							/>
+						</div>
 					</div>
 					<div className="column what-to-bring">
 						<h4 className="is-size-3 info-title">What to Bring</h4>

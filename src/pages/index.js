@@ -80,7 +80,7 @@ const IndexPage = () => (
 					</div>
 					<div className="column half-text">
 						<h2 className="is-size-3">A Charter Experience Like No Other</h2>
-						<hr class="divider-bar" />
+						<hr className="divider-bar" />
 						<p>
 							During your day on the water, Captain Chris will provide a
 							complete outdoor experience that you’ll remember fondly for many
