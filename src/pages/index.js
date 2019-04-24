@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar";
-import indexbg from "../images/bg-img/index.jpg";
+import indexbg from "../images/bg-img/main.jpg";
 import smallmouthBass1 from "../images/smallmouth-bass-1.jpg";
 import mac2 from "../images/mac-2.jpg";
 import meetTheCaptain from "../images/captain-chris.jpg";

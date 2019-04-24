@@ -68,6 +68,7 @@ const RatesAndInfo = () => (
 						<div className="iframe-container">
 							<iframe
 								src="https://www.google.com/maps/d/embed?mid=1NtcfmShuVWqCQrpKye7xKNUgzzV0rv6k"
+								title="map"
 								width="500"
 								height="500"
 								className="responsive-iframe"
